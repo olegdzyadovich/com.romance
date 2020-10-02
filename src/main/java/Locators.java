@@ -3,7 +3,7 @@ import org.openqa.selenium.By;
 public class Locators {
 
     //Media Page
-    public static final By LINK_MEDIA = By.xpath("//a[@href='https://romanceabroad.com/media/index']");
+    public static final By LINK_MEDIA = By.xpath("/a[@href='https://romanceabroad.com/media/index']");
 
     //Registration
     public static final By BUTTON_REGISTRATION = By.cssSelector("#show-registration-block");
